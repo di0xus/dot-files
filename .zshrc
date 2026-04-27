@@ -49,6 +49,12 @@ alias v='/run/current-system/sw/bin/nvim'
 alias reload='source ~/.zshrc'
 alias zconfig='v ~/.zshrc'
 
+# eza aliases
+alias ls='eza --icons --group-directories-first'
+alias ll='eza -l --icons --group-directories-first'
+alias la='eza -la --icons --group-directories-first'
+alias lt='eza --tree --level=2 --icons'
+
 # 7. PLUGINS — lazy load syntax highlighting (it runs on every keypress)
 _zsh_syntax_highlight() {
   source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
