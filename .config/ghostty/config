@@ -1,0 +1,32 @@
+# ─── Font (Trimmed for Speed) ────────────────
+font-family = "Monaspace Neon"
+font-size = 13
+# Only keep the features you actually see
+font-feature = calt
+font-feature = liga
+adjust-cell-height = 10%
+
+# ─── Theme ──────────────────────────────────
+theme = Kanagawa Wave
+
+# ─── Window (The "No-Bloat" Setup) ──────────
+# Disabling decorations makes it look like a floating slate of text
+window-decoration = false
+
+# ─── Cursor ─────────────────────────────────
+cursor-style = bar
+cursor-style-blink = false
+
+# ─── macOS (Performance tweaks) ─────────────
+macos-option-as-alt = true
+# Disable shadow to save a tiny bit of GPU draw time
+macos-window-shadow = false 
+# This makes double-clicks register faster
+click-repeat-interval = 100
+
+# ─── Keybinds ───────────────────────────────
+# Keep your cmd+d splits, they are faster than tabs!
+keybind = cmd+shift+h=goto_split:left
+keybind = cmd+shift+l=goto_split:right
+keybind = cmd+d=new_split:right
+keybind = cmd+shift+d=new_split:down
